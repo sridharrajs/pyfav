@@ -1,4 +1,4 @@
-##pyfav
+## pyfav
 
 
 pyfav is a Python library that helps you get a [favicon](http://en.wikipedia.org/wiki/Favicon) for a supplied URL.
@@ -8,7 +8,7 @@ Favicons can be annoying to track down because they're commonly located in a han
 [![Build Status](https://travis-ci.org/phillipsm/pyfav.svg?branch=master)](https://travis-ci.org/phillipsm/pyfav)
 [![Coverage Status](https://coveralls.io/repos/phillipsm/pyfav/badge.png?branch=master)](https://coveralls.io/r/phillipsm/pyfav?branch=master)
 
-###Exchange a URL for a favicon on disk
+### Exchange a URL for a favicon on disk
 
 The simplest way to get started is to use the download_favicon function,
 
@@ -30,7 +30,7 @@ favicon_saved_at = download_favicon('https://www.python.org/', \
 ````
 
 
-###Get the location
+### Get the location
 
 If you'd prefer to handle the writing piece, use the get_favicon_url function,
 ````
@@ -40,7 +40,7 @@ favicon_url = get_favicon_url('https://www.python.org/')
 ````
 
 
-###Install
+### Install
 
 The easiest to get pyfav is through PIP
 
