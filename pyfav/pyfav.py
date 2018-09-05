@@ -111,7 +111,7 @@ def parse_markup_for_favicon(markup, url):
     url -- A string containing the URL where the supplied markup can be found.
     We use this URL in cases where the favicon path in the markup is relative.
     
-    Retruns:
+    Returns:
     The URL of the favicon. A string. If not found, returns None.
     """
     
